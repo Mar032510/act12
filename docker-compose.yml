@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 services:
   sgroup13:
     build: .
@@ -13,3 +14,20 @@ services:
 networks:
   xarxa13:
     driver: bridge
+=======
+services:
+  sgroup13:
+    build: .
+    image: igroup13
+    container_name: cdevops13
+    ports:
+      - "80:80"
+    volumes:
+      - ./codi/:/var/www/html
+    networks:
+      - xarxa13
+
+networks:
+  xarxa13:
+    driver: bridge
+>>>>>>> 1133bee (Commit 1.5: FASE A)
