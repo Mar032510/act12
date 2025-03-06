@@ -9,20 +9,12 @@ NOM_BASE_OPS = "ops13"
 NOM_BASE_DEV = "dev13"
 NOM_DOMINI_NODES = ".clotfje.net"
 CARPETA_MAQ_FIS = "../pj9f4a13"
-<<<<<<< HEAD
 CARPETA_MAQ_VIR = "/home/vagrant/grup13"
-=======
-CARPETA_MAQ_VIR = "/home/vagrant/grupo13"
->>>>>>> 1133bee (Commit 1.5: FASE A)
 MEMORIA_RAM_OPS = 2048
 MEMORIA_RAM_DEV = 1024
 NUM_CPUS_OPS = 2
 NUM_CPUS_DEV = 1
-<<<<<<< HEAD
-TARGETA_XARXA = "Intel(R) Wi-Fi 6 AX201 160MHz"
-=======
 TARGETA_XARXA = "Intel(R) Wi-Fi 6E AX211 160MHz"
->>>>>>> 1133bee (Commit 1.5: FASE A)
 
 Vagrant.configure("2") do |node|
   ### Definició de la màquina de producció ###
